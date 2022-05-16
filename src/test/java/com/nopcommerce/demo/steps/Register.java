@@ -44,6 +44,7 @@ public class Register {
 
     @And("^User enter Firstname \"([^\"]*)\" in Firstname field$")
     public void userEnterFirstnameInFirstnameField(String firstname) {
+
         new RegisterPage().setFirstName(firstname);
     }
 
